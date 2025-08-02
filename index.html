@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Banking Resolutios</title>
+    <style>   body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .success-message {
+      text-align: center;
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Get Help with Banking Services</h1>
+    <p>Fill out the form below to get assistance with home loans, account opening/closing, LAP, BBG, or other banking needs. Our team will contact you soon.</p>
+
+    <!-- ✅ Updated form using FormSubmit -->
+    <form action="https://formsubmit.co/arbind.khadka09@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <textarea name="query" placeholder="Describe your requirement (e.g., home loan, LAP, documentation help)" required></textarea>
+
+      <!-- Hidden Inputs for Features -->
+      <input type="hidden" name="_subject" value="New Banking Lead Received" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_autoresponse" value="Thank you for contacting us. Our team will reach out to you shortly." />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p class="success-message">Thank you! Your form has been submitted.</p>
+  </div>
+</body>
+</html>
